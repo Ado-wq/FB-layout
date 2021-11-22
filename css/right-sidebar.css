@@ -1,0 +1,106 @@
+.birthday-container i{
+  padding: 1%;
+  margin-right: 0.5rem;
+}
+
+.birthday-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex:1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-top:1.5rem;
+  background-color:#242323;
+  height: 8rem;
+  border-radius:10px;
+}
+
+.birthday-container h3{
+  padding:0.5rem;
+}
+
+.cake-and-content{
+  display: flex;
+  align-items: baseline;
+  font-size:1.3vw;
+}
+
+.content-name h3{
+  font-size:1.2vw;
+}
+
+.spons-content{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-top: 2px solid #3A3B3C;
+  margin-top:1rem;
+  margin-bottom:1rem;
+  border-bottom:2px solid #3A3B3C ;
+  max-height: 4rem;
+}
+
+.spons-content h3{
+  margin-left: 0.1rem;
+  color:#818181;
+  padding: 1rem 0 1rem 0;
+}
+
+.contact-manager{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 1.5rem;
+}
+
+.contact-manager h3{
+  font-size:1.2vw;
+  color: #818181;
+}
+
+.contact-i{
+  display: flex;
+  width: 8vw;
+  flex-direction: row;
+  justify-content:space-between ;
+}
+.contact-i i{
+    padding:0;
+    color:#3A3B3C;
+}
+.contact-i i:hover{
+    background-color:transparent;
+}
+
+.contact-list{
+  overflow-y: scroll;
+  overflow-x: hidden;
+    scrollbar-color: rgb(133, 133, 133) rgb(64, 64, 68);
+    scrollbar-width:thin;
+}
+
+.users-online{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.users-online img{
+  object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.users-online .resp-img{
+  display: flex;
+  align-items: center;
+  height:5em;
+}
+
+.resp-img p{
+font-size: 1.1vw;
+}

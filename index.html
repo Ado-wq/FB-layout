@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Charset and Responsiveness-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Main CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/left-sidebar.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/right-sidebar.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>ShowOff | CSS & HTML</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <div class="logo-bg">
+                <i class="fab fa-facebook unhover" id="logo"></i>
+            </div>
+
+            <form action="#">
+                <div class="form-group">
+                    <i class="fas fa-search search unhover"></i>
+                    <input type="text" placeholder="Pretraži Facebook" class="search-box">
+                </div>
+            </form>
+        </div>
+
+        <div class="nav-mid">
+            <div class="home active">
+                <i class="fas fa-home"></i>
+            </div>
+            <div class="friends">
+                <i class="fas fa-user-friends"></i>
+            </div>
+            <div class="watch">
+                <i class="fab fa-youtube"></i>
+            </div>
+            <div class="groups">
+                <i class="fas fa-universal-access"></i>
+            </div>
+            <div class="videogames">
+                <i class="fas fa-puzzle-piece"></i>
+            </div>
+        </div>
+
+        <div class="nav-right">
+
+            <div class="auth">
+                <img src="./images/IMG-b4f2b52c102d37427fa1b8444ee6a948-V.jpg" alt="Authenticated users image"
+                    class="auth-img">
+                <p class="auth-name">Korisnik</p>
+            </div>
+            <div class="nav-right-hidder">
+                <div class="menu">
+                    <i class="fas fa-braille"></i>
+                </div>
+                <div class="messenger">
+                    <i class="fab fa-facebook-messenger"></i>
+                </div>
+                <div class="notifications">
+                    <i class="fas fa-bell"></i>
+                </div>
+                <div class="profile">
+                    <i class="fas fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ********* LEFT SIDEBAR *********** -->
+    <div class="content">
+        <div class="sidebar" id="side-scroll">
+            <div class="online-user">
+                <div class="sidebar-col">
+                    <img src="./images/IMG-b4f2b52c102d37427fa1b8444ee6a948-V.jpg" alt="Authenticated users image"
+                        class="auth-img">
+                    <p>First and Lastname</p>
+                </div>
+
+                <div class="sidebar-col">
+                    <i class="fas fa-user-friends"></i>
+                    <p>Friends</p>
+                </div>
+
+                <div class="sidebar-col">
+                    <i class="fas fa-users"></i>
+                    <p>Groups</p>
+                </div>
+
+                <div class="sidebar-col">
+                    <i class="fab fa-youtube"></i>
+                    <p>Watch</p>
+                </div>
+
+                <div class="sidebar-col">
+                    <i class="far fa-clock"></i>
+                    <p>Memories</p>
+                </div>
+
+                <div class="sidebar-col">
+                    <i class="fas fa-bookmark"></i>
+                    <p>Saved</p>
+                </div>
+
+                <div class="sidebar-col">
+                    <i class="fas fa-flag"></i>
+                    <p>Sides</p>
+                </div>
+
+                <div class="sidebar-col">
+                    <i class="far fa-calendar-alt"></i>
+                    <p>Events</p>
+                </div>
+
+                <div class="sidebar-col">
+                    <i class="fas fa-briefcase"></i>
+                    <p>Jobs</p>
+                </div>
+                <div class="sidebar-col">
+                    <i class="far fa-calendar-plus"></i>
+                    <p>Latest</p>
+                </div>
+                <div class="sidebar-col">
+                    <i class="far fa-chart-bar"></i>
+                    <p>Ads Manager</p>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+        <!--***********  MAIN CONTENT********** -->
+        <div class="main">
+            <div class="carousel-container">
+                <div class="i-wrapper"><i class="fas fa-chevron-circle-right next-event"></i></div>
+                <div class="carousel-container">
+
+                    <div class="carousel first">
+                        <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                            alt="">
+                        <h2>Name lastname</h2>
+                    </div>
+                    <div class="carousel second">
+                        <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+                            alt="">
+                        <h2>Name lastname</h2>
+                    </div>
+                    <div class="carousel third">
+                        <img src="https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+                            alt="">
+                        <h2>Name lastname</h2>
+                    </div>
+                    <div class="carousel forth">
+                        <img src="https://images.unsplash.com/photo-1603468620905-8de7d86b781e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                            alt="">
+                        <h2>Name lastname</h2>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="activity-container">
+                <div class="activity-box">
+                    <div class="activity-box-auth">
+                        <img src="./images/IMG-b4f2b52c102d37427fa1b8444ee6a948-V.jpg" alt="Authenticated users image"
+                            class="auth-img">
+                        <input type="text" placeholder="What are you doin now [name]?" class="search-box">
+                    </div>
+                    <div class="border-divider">
+
+                    </div>
+                    <div class="choose-activity">
+                        <div class="live-acitvity">
+                            <div class="fas-size">
+                                <i class="fas fa-video livevideo"></i>
+                            </div>
+                            <h3>LiveVideo</h3>
+                        </div>
+                        <div class="photo-acitvity">
+                            <div class="fas-size">
+                                <i class="far fa-images"></i>
+                            </div>
+                            <h3>Photo/video</h3>
+                        </div>
+                        <div class="event-activity">
+                            <div class="fas-size">
+                                <i class="far fa-grin-beam"></i>
+                            </div>
+                            <h3>Event</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="create-room-box"> -->
+            <div class="room-box-container">
+                <div class="room-active-members">
+                    <div class="create-room">
+                        <div class="create-room-wrapper">
+                            <i class="fas fa-video"></i>
+                            <h3>Create room</h3>
+                        </div>
+                    </div>
+                    <div class="resp-img">
+                        <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                            alt="">
+                    </div>
+                    <div class="resp-img">
+                        <img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+                            alt="">
+                    </div>
+                    <div class="resp-img">
+                        <img src="https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
+                            alt="">
+                    </div>
+                    <div class="resp-img">
+                        <img src="https://images.unsplash.com/photo-1603468620905-8de7d86b781e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRldmVsb3BlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60"
+                            alt="">
+                    </div>
+                    <div class="resp-img">
+                        <img src="https://media.istockphoto.com/photos/data-scientists-male-programmer-using-laptop-analyzing-and-developing-picture-id1295900106?b=1&k=20&m=1295900106&s=170667a&w=0&h=kQ2UWilU4Bild5aP03CaF65gMbSI-chG--7dd2oS8GM="
+                            alt="">
+                        <div class="i-wrapper"><i class="fas fa-chevron-circle-right next-event"></i></div>
+                    </div>
+                </div>
+            </div>
+            <!-- </div> -->
+            <div class="flow-container">
+                <div class="content-user-wrapper">
+                    <div class="content-user">
+                        <img src="https://cdn.pixabay.com/photo/2015/07/02/10/47/record-828983__480.jpg " alt=""
+                            class="auth-img">
+                        <h3>Latest Videos</h3>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="player-container">
+                    <iframe class="video-player" width="320" height="415"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </div>
+            </div>
+            <div class="flow-container">
+                <div class="content-user-wrapper">
+                    <div class="content-user">
+                        <img src="https://cdn.pixabay.com/photo/2015/07/02/10/47/record-828983__480.jpg " alt=""
+                            class="auth-img">
+                        <h3>Latest Videos</h3>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="player-container">
+                    <iframe class="video-player" width="320" height="415"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </div>
+            </div>
+            <div class="flow-container">
+                <div class="content-user-wrapper">
+                    <div class="content-user">
+                        <img src="https://cdn.pixabay.com/photo/2015/07/02/10/47/record-828983__480.jpg " alt=""
+                            class="auth-img">
+                        <h3>Latest Videos</h3>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="player-container">
+                    <iframe class="video-player" width="320" height="415"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </div>
+            </div>
+            <div class="flow-container">
+                <div class="content-user-wrapper">
+                    <div class="content-user">
+                        <img src="https://cdn.pixabay.com/photo/2015/07/02/10/47/record-828983__480.jpg " alt=""
+                            class="auth-img">
+                        <h3>Latest Videos</h3>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="player-container">
+                    <iframe class="video-player" width="320" height="415"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </div>
+            </div>
+            <div class="flow-container">
+                <div class="content-user-wrapper">
+                    <div class="content-user">
+                        <img src="https://cdn.pixabay.com/photo/2015/07/02/10/47/record-828983__480.jpg " alt=""
+                            class="auth-img">
+                        <h3>Latest Videos</h3>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="player-container">
+                    <iframe class="video-player" width="320" height="415"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </div>
+            </div>
+            <div class="flow-container">
+                <div class="content-user-wrapper">
+                    <div class="content-user">
+                        <img src="https://cdn.pixabay.com/photo/2015/07/02/10/47/record-828983__480.jpg " alt=""
+                            class="auth-img">
+                        <h3>Latest Videos</h3>
+                    </div>
+                    <div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
+                <div class="player-container">
+                    <iframe class="video-player" width="320" height="415"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <!-- ********** RIGHT SIDEBAR ********** -->
+        <div class="advert">
+            <div class="upcoming-events">
+                <div class="birthday-container">
+                    <div class="cake-and-content">
+                        <i class="fas fa-birthday-cake"></i>
+                        <h3>birthdays</h3>
+                    </div>
+                    <i class="fas fa-times"></i>
+                    <div class="content-name">
+                        <h3> First Lastname Has birthday today</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="spons-content">
+                <h3>Sponsored</h3>
+            </div>
+            <div class="contact-manager">
+                <h3>Contacts</h3>
+                <div class="contact-i">
+                    <i class="fas fa-video"></i>
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+            <div class="contact-list">
+                <div class="users-online">
+                    <div class="resp-img">
+                        <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                            alt="">
+                        <p>First LastName</p>
+                    </div>
+                </div>
+                <div class="users-online">
+                    <div class="resp-img">
+                        <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                            alt="">
+                        <p>First LastName</p>
+                    </div>
+                </div>
+                <div class="users-online">
+                    <div class="resp-img">
+                        <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                            alt="">
+                        <p>First LastName</p>
+                    </div>
+                </div>
+                <div class="users-online">
+                    <div class="resp-img">
+                        <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                            alt="">
+                        <p>First LastName</p>
+                    </div>
+                </div>
+                <div class="users-online">
+                    <div class="resp-img">
+                        <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                            alt="">
+                        <p>First LastName</p>
+                    </div>
+                </div>
+                <div class="users-online">
+                    <div class="resp-img">
+                        <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                            alt="">
+                        <p>First LastName</p>
+                    </div>
+                </div>
+                <div class="users-online">
+                    <div class="resp-img">
+                        <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                            alt="">
+                        <p>First LastName</p>
+                    </div>
+                </div>
+                <div class="users-online">
+                    <div class="resp-img">
+                        <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                            alt="">
+                        <p>First LastName</p>
+                    </div>
+                </div>
+                <div class="users-online">
+                    <div class="resp-img">
+                        <img src="https://media.istockphoto.com/photos/computer-programmer-working-on-laptop-picture-id1265176772?b=1&k=20&m=1265176772&s=170667a&w=0&h=IHFnvxa3kvVTuZcEfPpCSGIFA_gNT7dIlGDR7eD2cFI="
+                            alt="">
+                        <p>First LastName</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
